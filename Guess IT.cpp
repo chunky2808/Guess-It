@@ -11,7 +11,6 @@ using namespace std;
     vector <string>  :: iterator it;
 
 int main()
-
 {
     system("color 9");
     int a,b,c,d,e,f,h,i,l,z,x,y,s,g,n,m,v;
@@ -86,14 +85,11 @@ int main()
     {
       case 1://hollywood
       {
-//          clrscr();
       cout<<"\t\t\t\t\t\t\t\t\t\t0 - EASY\n\n\t\t\t\t\t\t\t\t\t\t1 - MEDIUM\n\n\t\t\t\t\t\t\t\t\t\t2 - HARD\n\n";
       cin>>v;
-//system("cls");
       switch(v)
       {
        case 0://easy
-//clrscr();
        {
         system("color 2");
         a=0;
@@ -107,7 +103,6 @@ int main()
        c=0;
        jan = *it;
        e=0;
-      // cout<<b<<"\n";
        for(d=0;d<b;d++)
        {
         if(jan[d]=='A' || jan[d]=='E' || jan[d]=='I' || jan[d]=='O' || jan[d]=='U' ||jan[d]=='a' || jan[d]=='e' || jan[d]=='i' || jan[d]=='o' || jan[d]=='u')
@@ -151,7 +146,6 @@ int main()
        cin>>d;
        cin.ignore();
        cin>>ch;
-       //system("cls");
        if((*it)[d]!=ch)
        {
            cout<<"\t\t\t\t\t\t\t\t\t\tWrong Attempt\n\n";
@@ -189,7 +183,6 @@ int main()
        c=0;
        jan = *it;
        e = 0;
-      // cout<<b<<"\n";
        for(d=0;d<b;d++)
        {
         if(jan[d]=='A' || jan[d]=='E' || jan[d]=='I' || jan[d]=='O' || jan[d]=='U' ||jan[d]=='a' || jan[d]=='e' || jan[d]=='i' || jan[d]=='o' || jan[d]=='u')
@@ -234,7 +227,6 @@ int main()
        cin>>d;
        cin.ignore();
        cin>>ch;
-       //system("cls");
        if((*it)[d]!=ch)
        {
            cout<<"\t\t\t\t\t\t\t\t\t\tWrong Attempt\n\n";
@@ -249,7 +241,6 @@ int main()
             flag=1;
             break;
         }
-      // system("cls");
        }
        if(flag==0)
        cout<<"\n\n\t\t\t\t\t\t\t\t\t\tYOU LOST\n\n";
@@ -274,7 +265,6 @@ int main()
        c=0;
        jan = *it;
        e = 0;
-      // cout<<b<<"\n";
        for(d=0;d<b;d++)
        {
         if(jan[d]=='A' || jan[d]=='E' || jan[d]=='I' || jan[d]=='O' || jan[d]=='U' ||jan[d]=='a' || jan[d]=='e' || jan[d]=='i' || jan[d]=='o' || jan[d]=='u')
@@ -320,7 +310,6 @@ int main()
        cin>>d;
        cin.ignore();
        cin>>ch;
-       //system("cls");
        if((*it)[d]!=ch)
        {
            cout<<"\t\t\t\t\t\t\t\t\t\tWrong Attempt\n\n";
@@ -335,7 +324,6 @@ int main()
             flag=1;
             break;
         }
-      // system("cls");
        }
       if(flag==0)
       cout<<"\n\n\t\t\t\t\t\t\t\t\t\tYOU LOST\n\n";
@@ -352,7 +340,6 @@ int main()
      {
       cout<<"\t\t\t\t\t\t\t\t\t\t0 - EASY\n\n\t\t\t\t\t\t\t\t\t\t1 - MEDIUM\n\n\t\t\t\t\t\t\t\t\t\t2 - HARD\n\n";
       cin>>v;
-       //system("cls");
       switch(v)
       {
        case 0:
@@ -370,7 +357,6 @@ int main()
        c=0;
        jan = *it;
        e = 0;
-      // cout<<b<<"\n";
        for(d=0;d<b;d++)
        {
         if(jan[d]=='A' || jan[d]=='E' || jan[d]=='I' || jan[d]=='O' || jan[d]=='U' ||jan[d]=='a' || jan[d]=='e' || jan[d]=='i' || jan[d]=='o' || jan[d]=='u')
@@ -416,7 +402,6 @@ int main()
        cin>>d;
        cin.ignore();
        cin>>ch;
-      // system("cls");
        if((*it)[d]!=ch)
        {
            cout<<"\t\t\t\t\t\t\t\t\t\tWrong Attempt\n\n";
@@ -431,7 +416,6 @@ int main()
             flag=1;
             break;
         }
-      // system("cls");
        }
        if(flag==0)
        cout<<"\n\n\t\t\t\t\t\t\t\t\t\tYOU LOST\n\n";
@@ -456,7 +440,6 @@ int main()
        c=0;
        jan = *it;
        e = 0;
-       //cout<<b<<"\n";
        for(d=0;d<b;d++)
        {
         if(jan[d]=='A' || jan[d]=='E' || jan[d]=='I' || jan[d]=='O' || jan[d]=='U' ||jan[d]=='a' || jan[d]=='e' || jan[d]=='i' || jan[d]=='o' || jan[d]=='u')
@@ -501,7 +484,6 @@ int main()
        cin>>d;
        cin.ignore();
        cin>>ch;
-     //  system("cls");
        if((*it)[d]!=ch)
        {
            cout<<"\t\t\t\t\t\t\t\t\t\tWrong Attempt\n\n";
@@ -516,7 +498,6 @@ int main()
             flag=1;
             break;
         }
-      // system("cls");
        }
        if(flag==0)
        cout<<"\n\n\t\t\t\t\t\t\t\t\t\tYOU LOST\n\n";
@@ -541,7 +522,6 @@ int main()
        c=0;
        jan = *it;
        e = 0;
-      // cout<<b<<"\n";
        for(d=0;d<b;d++)
        {
         if(jan[d]=='A' || jan[d]=='E' || jan[d]=='I' || jan[d]=='O' || jan[d]=='U' ||jan[d]=='a' || jan[d]=='e' || jan[d]=='i' || jan[d]=='o' || jan[d]=='u')
@@ -587,7 +567,6 @@ int main()
        cin>>d;
        cin.ignore();
        cin>>ch;
-       //system("cls");
        if((*it)[d]!=ch)
        {
            cout<<"\t\t\t\t\t\t\t\t\t\tWrong Attempt\n\n";
@@ -602,7 +581,6 @@ int main()
             flag=1;
             break;
         }
-       //system("cls");
        }
       if(flag==0)
       cout<<"\n\n\t\t\t\t\t\t\t\t\t\tYOU LOST\n\n";
